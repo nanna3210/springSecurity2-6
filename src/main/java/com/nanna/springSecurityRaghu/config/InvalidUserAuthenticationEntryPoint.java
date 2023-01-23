@@ -10,7 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 @Component
 public class InvalidUserAuthenticationEntryPoint  implements AuthenticationEntryPoint {
-    
+
+//    authentication entry point implementation
     @Override
     public void commence ( HttpServletRequest request ,
             HttpServletResponse response ,
